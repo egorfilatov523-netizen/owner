@@ -29,7 +29,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8825722155:AAEA2d2xHdGIkylhBmTmTDbafY4wh5LM51c").strip()
 DB_PATH = os.getenv("DB_PATH", "bot.db")
 WARNING_DELETE_SECONDS = 7
 BOT_USERNAME = ""
